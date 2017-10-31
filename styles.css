@@ -1,0 +1,19 @@
+.list-no-style {
+	list-style-type: none;
+}
+
+.direct-speech {
+	font-weight: bold;
+}
+
+.direct-speech:nth-child(even) {
+	color: red;
+}
+
+.direct-speech:nth-child(odd) {
+	color: green;
+}
+
+.direct-speech.blue {
+	color: blue;
+}
