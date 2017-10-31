@@ -1,5 +1,13 @@
 ﻿<html>
 <head>
+<style> 
+	.nav ul {
+	display:none;
+	}
+	.nav:hover ul {
+	display:block;
+	}
+	</style>
 <title>Дуб нормальный</title>
  <style>
    li {
@@ -15,7 +23,19 @@
 
 <div>У лукоморья тоже нормально</div>
 
-<div><a href='index.html' text='Оглавление'>Оглавление</a></div>
+<div class="nav">
+    <a href=index.html>Оглавление</a>
+	<ul class="menu">
+            <li><a href=prophet_oleg.html>"Песнь о Вещем Олеге"</a></li>
+            <li><a href=golden_cockerel.html>"Сказка о золотом петушке"</a></li>
+            <li><a href=dead_princess.html>"Сказка о мертвой царевне и о семи богатырях"</a></li>
+			<li><a href=pope_and_worker.html>"Сказка о попе и о работнике его Балде"</a></li>
+            <li><a href=fisherman.html>"Сказка о рыбаке и рыбке"</a></li>
+            <li><a href=tsar_saltan.html>"Сказка о царе Салтане, о сыне его славном..." </a></li>
+            <li><b>"У лукоморья дуб зеленый"</b></li>
+    </li>
+	</ul>
+	</div>
 
 <ul>
 <li>У лукоморья дуб зелёный;</li>
