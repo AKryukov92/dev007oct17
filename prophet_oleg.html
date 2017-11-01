@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8"/>
-	<style>
-	   .cap {
-		float: left; /* Выравнивание по левому краю */
-		margin: 0 2px 2px 0; /* Отступы вокруг буквы */
-	   }
+	<style> 
+	.nav ul {
+	display:none;
+	}
+	.nav:hover ul {
+	display:block;
+	}
 	</style>
+		<meta charset="utf-8"/>
+  <link rel="stylesheet" href="common.css">
 			<link rel="stylesheet" href="style/style.css">
 	</head>
-	<div><a href='index.html' text='Оглавление'>Оглавление</a></div>
+	<div class="nav">
+    <a href=index.html>Оглавление</a>
+	<ul class="menu">
+            <li><b>"Песнь о Вещем Олеге"</b></li>
+            <li><a href=golden_cockerel.html>"Сказка о золотом петушке"</a></li>
+            <li><a href=dead_princess.html>"Сказка о мертвой царевне и о семи богатырях"</a></li>
+			<li><a href=pope_and_worker.html>"Сказка о попе и о работнике его Балде"</a></li>
+            <li><a href=fisherman.html>"Сказка о рыбаке и рыбке"</a></li>
+            <li><a href=tsar_saltan.html>"Сказка о царе Салтане, о сыне его славном..." </a></li>
+            <li><a href=green_oak.html>"У лукоморья дуб зеленый"</a></li>
+    </li>
+	</ul>
+	</div>
 	
+
+	<body>
+
+		<header>
+		<p align="center">
+		<img src="images\curlHeader.png" width="300" height="100"> 
+		<br></br>	
+			<font size="18" color="red">
+			Сказки Пушкина
+			</font>
+		</p>
+		</header>
+
 	<br>
 	ПЕСНЬ О ВЕЩЕМ ОЛЕГЕ
 	<br />
 	<img src="Images/proshhanie_veshhego_olega_s_konem._v._vasnecov_1899-480x341.jpg">
-	<body>
-	
+
 <br><p><img src="images/letters/к.png" width="92" height="85" class="cap">ак <span class="tip" title="сейчас">ныне</span> сбирается вещий Олег<br />
+
+ <br>ПЕСНЬ О ВЕЩЕМ ОЛЕГЕ<br />
+
+<br>Как ныне сбирается вещий Олег<br />
      <br>Отмстить неразумным хозарам,<br />
 <br>Их селы и нивы за буйный набег<br />
      <br>Обрек он мечам и пожарам;<br />
@@ -26,6 +57,14 @@
 <br>С дружиной своей, в цареградской броне,<br />
 <br>Князь по полю едет на верном коне.<br />
 <br>Из темного леса навстречу ему...<br />
+
      <img src="Images/horse.jpg">
+
+		<footer>
+		<p align="center">
+		<img src="images\curlFooter.png" align="middle" width="300" height="100"> 
+		</p>
+		</footer>
+
 	</body>
 </html>

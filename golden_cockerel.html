@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+<style> 
+	.nav ul {
+	display:none;
+	}
+	.nav:hover ul {
+	display:block;
+	}
+	</style>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +18,8 @@
 <!------------------------ Title and description *must* be included --->
 <!------------------------ Bootstrap CSS ------------------------------>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="common.css">
+
 		<link rel="stylesheet" href="style/style.css">
 	<style>
    .cap {
@@ -19,16 +29,42 @@
   </style>
 </head>
 <body style="text-align: center">
+
+		<header>
+		<p align="center">
+		<img src="images\curlHeader.png" width="300" height="100"> 
+		<br></br>	
+			<font size="18" color="red">
+			Сказки Пушкина
+			</font>
+		</p>
+		</header>
+
 	  <ul>
 		  <li><a href="index.html">Оглавление</a></li>	  	  
       </ul>
+
+	  
+	<div class="nav">
+    <a href=index.html>Оглавление</a>
+	<ul class="menu">
+            <li><a href=prophet_oleg.html>"Песнь о Вещем Олеге"</a></li>
+            <li><b>"Сказка о золотом петушке"</b></li>
+            <li><a href=dead_princess.html>"Сказка о мертвой царевне и о семи богатырях"</a></li>
+			<li><a href=pope_and_worker.html>"Сказка о попе и о работнике его Балде"</a></li>
+            <li><a href=fisherman.html>"Сказка о рыбаке и рыбке"</a></li>
+            <li><a href=tsar_saltan.html>"Сказка о царе Салтане, о сыне его славном..." </a></li>
+            <li><a href=green_oak.html>"У лукоморья дуб зеленый"</a></li>
+    </li>
+	</ul>
+	</div>
 	<h1>СКАЗКА О ЗОЛОТОМ ПЕТУШКЕ</h1>	
 
 	<div class="versusch4">
 	
 <img class="illustration img-responsive" id="vol3_fig39" style="display: block; margin: 0 auto" width="400" title="«Сказка о золотом петушке». Рисунок Пушкина. 1834." src="./images/golden_cockerel_1.jpg"   alt="«Сказка о золотом петушке». Рисунок Пушкина. 1834." border="0">
 <p class="versepara" id="p1">
-<span class="line" id="L1"><p><img src="images/letters/н.png" width="92" height="85" class="cap">егде, в тридевятом царстве,</span><br>
+<span class="line" id="L1"><p><img src="images/letters/н.png" width="92" height="85" class="cap_center">егде, в тридевятом царстве,</span><br>
 <span class="line" id="L2">В тридесятом государстве,</span><br>
 <span class="line" id="L3">Жил-был славный царь Дадон.</span><br>
 <span class="line" id="L4">С молоду был грозен он</span><br>
@@ -271,7 +307,14 @@
 <span class="line" id="L221">А царица вдруг пропала,</span><br>
 <span class="line" id="L222">Будто вовсе не бывало.</span><br>
 <span class="line" id="L223">Сказка ложь, да в ней намек!</span><br>
-<span class="line" id="L224">Добрым молодцам урок.</span></p></div>	
+<span class="line" id="L224">Добрым молодцам урок.</span></p></div>
+
+		<footer>
+		<p align="center">
+		<img src="images\curlFooter.png" align="middle" width="300" height="100"> 
+		</p>
+		</footer>
+	
 </body>
 
 </body>
