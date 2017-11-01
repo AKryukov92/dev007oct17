@@ -1,0 +1,22 @@
+
+   .cap {
+    float: left; /* Выравнивание по левому краю */
+    margin: 0 2px 2px 0; /* Отступы вокруг буквы */
+   }
+   li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+   .cap_center {
+    float: center; /* Выравнивание по левому краю */
+    margin: 0 2px 2px 0; /* Отступы вокруг буквы */
+   }
+   	.nav ul {
+	display:none;
+	}
+	.nav:hover ul {
+	display:block;
+	}.
