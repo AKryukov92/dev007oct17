@@ -35,7 +35,15 @@ var abb = "row" + i.toString();
 
 
  </script>
-
+ <style>
+   li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+  </style>
 </head>
 <body>
 		<header>
@@ -65,7 +73,7 @@ var abb = "row" + i.toString();
 	</div>
 
 <ul>
-<li><p><img src="images/letters/у.png" width="92" height="85" class="cap"> лукоморья дуб зелёный;</li>
+<li>У лукоморья дуб зелёный;</li>
 <xline><li>Златая цепь на дубе том:</li></xline>
 <xline><li><img src="images/tree.jpg" alt="Письма мастера дзен"></li></xline>
 <xline><li>И днём и ночью кот учёный</li></xline>
