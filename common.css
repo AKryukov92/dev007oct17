@@ -14,3 +14,9 @@
     float: center; /* Выравнивание по левому краю */
     margin: 0 2px 2px 0; /* Отступы вокруг буквы */
    }
+   	.nav ul {
+	display:none;
+	}
+	.nav:hover ul {
+	display:block;
+	}.
